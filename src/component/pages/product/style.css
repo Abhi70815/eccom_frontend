@@ -1,0 +1,129 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    background-color: #f4f5f7;
+-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+font-size: 1em;
+margin:10px 10px;
+cursor: pointer;
+transition: 0.5s ease-in-out;
+}
+.product:hover{
+    background-color: #efe9e9;
+    transform:translateY(-10px);
+}
+
+.product img{
+    width: 100%;
+    border-radius: 15px;
+  
+}
+.product .title{
+    padding: 0 15px;
+}
+.product .price{
+    padding: 0 25px;
+    padding-bottom: 10px;
+    display: flex;
+    font-weight: bold;
+    gap: 25px;
+    color: green;
+}
+.product .price .realPrice{
+    color: #0049ff;
+}
+
+
+/* Email oferrs  */
+
+.emailOffer {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 80px;
+    height: 30vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+}
+.emailOffer h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.emailOffer p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+.email-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 20px 0 0 20px;
+    width: 300px;
+    font-size: 14px;
+}
+.email-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 0 20px 20px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+/* image banner */
+
+.BannerPost {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #e0e0e0; */
+    padding: 50px;
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .text-content {
+  
+    max-width: 50%;
+    }
+    .text-content h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #333;
+    }
+    .text-content p {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #555;
+    }
+    .text-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    }
+    .image-content img {
+    max-width: 100%;
+    height: auto;
+    }

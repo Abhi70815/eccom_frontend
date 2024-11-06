@@ -1,0 +1,25 @@
+.popular_product{
+    display: flex;
+    width: 80%;
+    flex-direction:column;
+    /* height: 100vh; */
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    /* gap: 30px; */
+    background: rgb(233,223,215);
+    background: radial-gradient(circle, rgba(233,223,215,1) 4%, rgba(246,246,244,1) 80%, rgba(217,209,203,1) 100%);
+}
+
+.popular_product> div{
+    flex-wrap: wrap;
+    display: flex;
+   justify-content: space-between;
+}
+.popular_product h1 hr{
+   width: 100px;
+}
+.bgcolor{
+    background: rgb(233,223,215);
+    background: radial-gradient(circle, rgba(233,223,215,1) 4%, rgba(246,246,244,1) 80%, rgba(217,209,203,1) 100%);
+  }

@@ -1,0 +1,32 @@
+
+.home{
+    width: 85vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 35px;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-left: 10vw;
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.home .home-text{
+    width: 60%;
+}
+
+.home .btn{
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+
+
+.heading{
+    font-size: 44px;
+    font-weight: bold;
+}

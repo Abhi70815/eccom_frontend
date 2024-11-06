@@ -1,0 +1,59 @@
+.cart {
+    width: 80%;
+    margin: 20px auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #e0e4e5;
+}
+td {
+    background-color: #ffffff;
+}
+.summary {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.summary h2 {
+    margin-top: 0;
+}
+.summary p {
+    margin: 10px 0;
+}
+.summary .total {
+    font-weight: bold;
+}
+.summary .checkout-btn {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.coupon {
+    margin-top: 20px;
+}
+.coupon input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 100px);
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.coupon input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0049ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
