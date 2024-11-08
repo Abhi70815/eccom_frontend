@@ -23,7 +23,7 @@ const App = () => {
 
   // const fetchData = async () => {
   //   try {
-  //     const response = await axios('http://localhost:4000/data');
+  //     const response = await axios('https://ecomm-backend-1-yiov.onrender.comdata');
   //     dispatch(setProduct(response.data));
   //     console.log(response.data.json())
   //   } catch (error) {

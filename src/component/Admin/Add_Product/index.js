@@ -12,7 +12,7 @@ console.log(image)
     formData.append('product_title', productTitle);
     formData.append('price', price);
 
-    fetch('http://localhost:4000/api/products', {
+    fetch('https://ecomm-backend-1-yiov.onrender.comapi/products', {
       method: 'POST',
       body: formData,
     })

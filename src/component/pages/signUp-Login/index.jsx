@@ -30,7 +30,7 @@ const SignupLogin = () => {
         email:userData.email,
         password:userData.password
       }
-      fetch('http://localhost:4000/login', {
+      fetch('https://ecomm-backend-1-yiov.onrender.comlogin', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -52,7 +52,7 @@ const SignupLogin = () => {
         .catch((error) => toast.error("error"));
     } else {
       // Send signup data to server API
-      fetch('http://localhost:4000/register', {
+      fetch('https://ecomm-backend-1-yiov.onrender.comregister', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
