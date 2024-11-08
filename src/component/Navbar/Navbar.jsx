@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 //  _React-icons
 import { MdHome } from "react-icons/md";
 import { GiHumanPyramid } from "react-icons/gi";
-import { MdShopTwo } from "react-icons/md";
+// import { MdShopTwo } from "react-icons/md";
 import { TbMoodKid } from "react-icons/tb";
 import { FaCartShopping } from "react-icons/fa6";
 import { CiLogout } from "react-icons/ci";
@@ -42,7 +42,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className="logo">Logo</div>
       {menu || <ul>
-        <li><NavLink to="/home"><MdHome />Home</NavLink></li>
+        <li><NavLink to="/home">Home</NavLink></li>
         <li><NavLink to="/mens"><GiHumanPyramid />Men's</NavLink></li>
         <li><NavLink to="/womans"><MdShopTwo />Woman's</NavLink></li>
         <li><NavLink to="/kids"><TbMoodKid />Kids</NavLink></li>
